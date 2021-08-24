@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import ArticleList from '../components/ArticleList'
 
 export default function Home({articles}) {
-  
+  console.log(articles)
   return (
     <div>
       <Head>
